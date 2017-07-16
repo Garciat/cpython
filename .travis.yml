@@ -8,8 +8,7 @@ cache: pip
 
 branches:
   only:
-    - master
-    - /^\d\.\d$/
+    - cppython
 
 matrix:
   fast_finish: true
